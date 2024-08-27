@@ -205,7 +205,7 @@ sup {
     top: -.5em
 }
 a {
-    color: #2060e9;
+    color: #000080;
     text-decoration: none;
     background-color: transparent
 }
@@ -2297,7 +2297,7 @@ pre code {
 .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #2060e9;
+    border-color: #000080;
     outline: 0;
     -webkit-box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25);
     box-shadow: 0 0 0 .2rem rgba(0, 123, 255, .25)
@@ -2836,8 +2836,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary {
     color: #fff;
-    background-color: #2060e9;
-    border-color: #2060e9
+    background-color: #000080;
+    border-color: #000080
 }
 .btn-primary:hover {
     color: #fff;
@@ -2852,8 +2852,8 @@ fieldset:disabled a.btn {
 .btn-primary.disabled,
 .btn-primary:disabled {
     color: #fff;
-    background-color: #2060e9;
-    border-color: #2060e9
+    background-color: #000080;
+    border-color: #000080
 }
 .btn-primary:not(:disabled):not(.disabled).active,
 .btn-primary:not(:disabled):not(.disabled):active,
@@ -3277,13 +3277,13 @@ fieldset:disabled a.btn {
     box-shadow: 0 0 0 .2rem rgba(110, 124, 138, .5)
 }
 .btn-outline-primary {
-    color: #2060e9;
-    border-color: #2060e9
+    color: #000080;
+    border-color: #000080
 }
 .btn-outline-primary:hover {
     color: #fff;
-    background-color: #2060e9;
-    border-color: #2060e9
+    background-color: #000080;
+    border-color: #000080
 }
 .btn-outline-primary.focus,
 .btn-outline-primary:focus {
@@ -3292,15 +3292,15 @@ fieldset:disabled a.btn {
 }
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #2060e9;
+    color: #000080;
     background-color: transparent
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #2060e9;
-    border-color: #2060e9
+    background-color: #000080;
+    border-color: #000080
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
@@ -3694,7 +3694,7 @@ fieldset:disabled a.btn {
 }
 .btn-link {
     font-weight: 400;
-    color: #2060e9;
+    color: #000080;
     text-decoration: none
 }
 .btn-link:hover {
@@ -3962,13 +3962,13 @@ input[type=submit].btn-block {
 .dropdown-item:hover {
     color: #fff;
     text-decoration: none;
-    background-color: #2060e9
+    background-color: #000080
 }
 .dropdown-item.active,
 .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #2060e9
+    background-color: #000080
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -5431,7 +5431,7 @@ input[type=submit].btn-block {
 }
 h4.card-title.linked,
 .h4.card-title.linked {
-    color: #2060e9!important
+    color: #000080!important
 }
 .accordion>.card {
     overflow: hidden
@@ -5499,7 +5499,7 @@ h4.card-title.linked,
     padding: .5rem .75rem;
     margin-left: -1px;
     line-height: 1.5;
-    color: #2060e9;
+    color: #000080;
     background-color: #fff;
     border: 1px solid #dee2e6
 }
@@ -5528,7 +5528,7 @@ h4.card-title.linked,
 .page-item.active .page-link {
     z-index: 1;
     color: #fff;
-    background-color: #2060e9;
+    background-color: #000080;
     border-color: #72001b
 }
 .page-item.disabled .page-link {
@@ -5603,7 +5603,7 @@ a.badge:hover {
 }
 .badge-primary {
     color: #fff;
-    background-color: #2060e9
+    background-color: #000080
 }
 a.badge-primary:focus,
 a.badge-primary:hover {
@@ -7161,7 +7161,7 @@ a.close.disabled {
     vertical-align: text-top!important
 }
 .bg-primary {
-    background-color: #2060e9!important
+    background-color: #000080!important
 }
 a.bg-primary:focus,
 a.bg-primary:hover,
@@ -7323,7 +7323,7 @@ button.bg-slate:hover {
     border-left: 0!important
 }
 .border-primary {
-    border-color: #2060e9!important
+    border-color: #000080!important
 }
 .border-secondary {
     border-color: #6c757d!important
@@ -10906,7 +10906,7 @@ button.bg-slate:hover {
 }
 .general-stat,
 .light-stat {
-    color: #2060e9!important
+    color: #000080!important
 }
 @media (min-width:576px) {
     .text-sm-left {
@@ -10998,7 +10998,7 @@ button.bg-slate:hover {
 #content.legacy-headers h6,
 .jumbotron.hero .caption p a,
 .text-primary {
-    color: #2060e9!important
+    color: #000080!important
 }
 #content p a,
 #content li a {
@@ -11112,7 +11112,7 @@ a.text-slate:hover {
     color: #343f48!important
 }
 .text-exclamation-triangle {
-    color: #2060e9!important
+    color: #000080!important
 }
 .text-flag {
     color: #d96f1a!important
@@ -11478,7 +11478,7 @@ a {
     font-size: 14px
 }
 .page-title .back-to-site-home a span {
-    color: #2060e9;
+    color: #000080;
     font-size: 14px;
     line-height: inherit
 }
@@ -11629,7 +11629,7 @@ a {
 }
 .header-legacy .accordion-collapses a:active,
 .header-legacy .accordion-collapses a:hover {
-    color: #2060e9
+    color: #000080
 }
 .header-legacy .nav-users {
     border-bottom: 1px solid #ced4da;
@@ -11647,13 +11647,13 @@ a {
     border-color: #343a40
 }
 .header-legacy .nav-users li.dropdown:focus-within {
-    border-color: #2060e9
+    border-color: #000080
 }
 .header-legacy .nav-users li.dropdown a:not(.collapsed) {
-    color: #2060e9
+    color: #000080
 }
 .header-legacy .nav-brand {
-    background: #2060e9;
+    background: #000080;
     z-index: 1040
 }
 .header-legacy .nav-brand a:active,
@@ -11668,8 +11668,8 @@ a {
 }
 @media (min-width:992px) {
     .header-legacy .nav-brand {
-        background: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(50%, transparent), color-stop(0, #2060e9), to(#2060e9));
-        background: linear-gradient(90deg, transparent 0, transparent 50%, #2060e9 0, #2060e9);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0, transparent), color-stop(50%, transparent), color-stop(0, #000080), to(#000080));
+        background: linear-gradient(90deg, transparent 0, transparent 50%, #000080 0, #000080);
         position: absolute;
         bottom: 0;
         left: 0;
@@ -11701,8 +11701,8 @@ a {
 .header-legacy .nav-brand-mini .dropdown-toggle:active,
 .header-legacy .nav-brand-mini .dropdown-toggle:focus,
 .header-legacy .nav-brand-mini .dropdown-toggle:hover {
-    background-color: #2060e9;
-    border-color: #2060e9;
+    background-color: #000080;
+    border-color: #000080;
     color: #fff
 }
 .header-legacy .nav-brand-mini .dropdown-menu {
@@ -11735,7 +11735,7 @@ a {
 }
 .header-legacy .nav-light a:active,
 .header-legacy .nav-light a:hover {
-    background-color: #2060e9;
+    background-color: #000080;
     color: #fff!important
 }
 .header-legacy .nav-light .navbar-toggler {
@@ -11877,13 +11877,13 @@ a {
     color: #fff
 }
 .header-scu .nav-top-custom {
-    border-top: 5px solid #2060e9
+    border-top: 5px solid #000080
 }
 .header-scu .nav-top-custom .container {
     min-height: 35px
 }
 .header-scu .nav-fixed-custom {
-    border-top: 5px solid #2060e9
+    border-top: 5px solid #000080
 }
 .header-scu .nav-fixed-custom .wordmark {
     max-width: 300px;
@@ -12163,7 +12163,7 @@ a {
     }
 }
 .alert-primary {
-    background-color: #2060e9;
+    background-color: #000080;
     border-radius: 0;
     color: #fff
 }
@@ -12175,7 +12175,7 @@ button.close:hover {
     color: #fff
 }
 .announcement {
-    border-left: 1px solid #2060e9
+    border-left: 1px solid #000080
 }
 .announcement.h3 {
     display: inline-block;
@@ -12184,7 +12184,7 @@ button.close:hover {
     font-size: 1em;
     line-height: 1.5;
     color: #fff;
-    background-color: #2060e9
+    background-color: #000080
 }
 .announcement h3 {
     display: inline-block;
@@ -12193,7 +12193,7 @@ button.close:hover {
     font-size: 1em;
     line-height: 1.5;
     color: #fff;
-    background-color: #2060e9
+    background-color: #000080
 }
 .announcement p {
     font-size: 1.25em;
@@ -12206,12 +12206,12 @@ button.close:hover {
     }
 }
 .announcement-primary {
-    border-left-color: #2060e9;
+    border-left-color: #000080;
     color: #fff
 }
 .announcement-primary h3 {
     color: #fff;
-    background-color: #2060e9
+    background-color: #000080
 }
 .announcement-secondary {
     border-left-color: #6c757d;
@@ -12358,17 +12358,17 @@ button.close:hover {
     text-decoration: none
 }
 .link-button.brand-primary {
-    background-color: #2060e9;
+    background-color: #000080;
     border: 1px solid #FFFFFF
 }
 .link-button.maroon {
-    background-color: #2060e9;
-    border: 1px solid #2060e9
+    background-color: #000080;
+    border: 1px solid #000080
 }
 .link-button.white {
     background-color: #FFF;
-    border: 1px solid #2060e9;
-    color: #2060e9
+    border: 1px solid #000080;
+    color: #000080
 }
 .link-button.white:hover {
     background-color: #f4f2f0
@@ -12379,8 +12379,8 @@ button.close:hover {
 }
 .link-button.brand-secondary {
     background-color: transparent;
-    border: 1px solid #2060e9;
-    color: #2060e9
+    border: 1px solid #000080;
+    color: #000080
 }
 .link-button.brand-secondary:hover {
     background-color: #fafafa
@@ -12517,10 +12517,10 @@ button.close:hover {
 }
 .pull-quote-inv {
     background: #fcfcfc;
-    color: #2060e9
+    color: #000080
 }
 .pull-quote-inv footer {
-    color: #2060e9
+    color: #000080
 }
 .pull-quote-inv img {
     border-color: #fff
@@ -12568,7 +12568,7 @@ button.close:hover {
     border-bottom: 1px solid #dee2e6;
     font-family: "Trade Gothic W01 Light";
     margin-bottom: 1rem;
-    color: #2060e9;
+    color: #000080;
     font-weight: 300!important;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -12615,7 +12615,7 @@ button.close:hover {
     padding-left: 1rem
 }
 .sidebar .sidebar--links .active {
-    color: #2060e9;
+    color: #000080;
     padding-bottom: .25rem;
     padding-top: .25rem;
     font-family: "Trade Gothic W01 Bold_2"
@@ -12659,7 +12659,7 @@ button.close:hover {
 .site-pointer-stone .site-pointer-body {
     -webkit-transition: background-color .2s ease-in-out;
     transition: background-color .2s ease-in-out;
-    background-color: #2060e9;
+    background-color: #000080;
     border: 1px solid #72001b;
     color: #fff;
     display: block;
@@ -12823,7 +12823,7 @@ button.close:hover {
     background-size: cover
 }
 .social a.scu {
-    background-color: #2060e9;
+    background-color: #000080;
     font-size: 60px;
     line-height: 55px
 }
@@ -12915,7 +12915,7 @@ button.close:hover {
     border-top-color: rgba(255, 255, 255, .2)
 }
 .statcard-primary {
-    background-color: #2060e9
+    background-color: #000080
 }
 .statcard-success {
     background-color: #058a16
@@ -12968,7 +12968,7 @@ button.close:hover {
     display: inline;
     color: #fff;
     padding: .25em;
-    background: #2060e9
+    background: #000080
 }
 .text-highlight .highlight--wrapping {
     position: relative;
@@ -12977,16 +12977,16 @@ button.close:hover {
     padding-right: 0;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
-    -webkit-box-shadow: .25em 0 0 #2060e9, -.25em 0 0 #2060e9;
-    box-shadow: .25em 0 0 #2060e9, -.25em 0 0 #2060e9
+    -webkit-box-shadow: .25em 0 0 #000080, -.25em 0 0 #000080;
+    box-shadow: .25em 0 0 #000080, -.25em 0 0 #000080
 }
 .text-highlight-primary .highlight {
-    background: #2060e9;
+    background: #000080;
     color: #fff
 }
 .text-highlight-primary .highlight--wrapping {
-    -webkit-box-shadow: .25em 0 0 #2060e9, -.25em 0 0 #2060e9;
-    box-shadow: .25em 0 0 #2060e9, -.25em 0 0 #2060e9
+    -webkit-box-shadow: .25em 0 0 #000080, -.25em 0 0 #000080;
+    box-shadow: .25em 0 0 #000080, -.25em 0 0 #000080
 }
 .text-highlight-secondary .highlight {
     background: #6c757d;
@@ -13244,7 +13244,7 @@ button.close:hover {
     width: 42px
 }
 .events.module .events-month {
-    background-color: #2060e9;
+    background-color: #000080;
     color: #fff;
     font-size: .6em;
     line-height: 1.5em;
@@ -13325,7 +13325,7 @@ button.close:hover {
     z-index: 10
 }
 .events.module .featured-event h4 {
-    background-color: #2060e9;
+    background-color: #000080;
     padding: .5em 1.25em;
     width: auto
 }
@@ -13547,8 +13547,8 @@ button.close:hover {
     color: #fff
 }
 .bg-gradient-primary {
-    background: -webkit-gradient(linear, right top, left top, from(#91062d), to(#2060e9));
-    background: linear-gradient(to left, #91062d, #2060e9)
+    background: -webkit-gradient(linear, right top, left top, from(#91062d), to(#000080));
+    background: linear-gradient(to left, #91062d, #000080)
 }
 .bg-gradient-danger {
     background: -webkit-gradient(linear, right top, left top, from(#d33632), to(#d9534f));
@@ -14198,11 +14198,11 @@ button.close:hover {
     cursor: not-allowed
 }
 .select2-container--bootstrap4 .select2-results__option[aria-selected=true] {
-    background-color: #2060e9;
+    background-color: #000080;
     color: #fff
 }
 .select2-container--bootstrap4 .select2-results__option--highlighted[aria-selected] {
-    background-color: #2060e9;
+    background-color: #000080;
     color: #fff
 }
 .select2-container--bootstrap4 .select2-results__option .select2-results__option {
@@ -14245,7 +14245,7 @@ button.close:hover {
     transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
-    border-color: #2060e9
+    border-color: #000080
 }
 @media (prefers-reduced-motion:reduce) {
     .select2-container--bootstrap4.select2-container--focus .select2-selection,
@@ -14294,7 +14294,7 @@ button.close:hover {
     display: none
 }
 .select2-container--bootstrap4 .select2-dropdown {
-    border-color: #2060e9;
+    border-color: #000080;
     border-width: 1px;
     overflow-x: hidden;
     margin-top: -1px
@@ -14709,7 +14709,7 @@ button.close:hover {
 }
 .mb-rp,
 .mb-rw {
-    background-color: #2060e9
+    background-color: #000080
 }
 .mb-bp,
 .mb-br,
@@ -14718,7 +14718,7 @@ button.close:hover {
 }
 .mb-message-rp,
 .mb-message-rw {
-    background-color: #2060e9;
+    background-color: #000080;
     color: #fff
 }
 .mb-message-bp,
@@ -14731,7 +14731,7 @@ button.close:hover {
     background-color: #fff
 }
 .mb-image-br {
-    background-color: #2060e9
+    background-color: #000080
 }
 .mb-image-bp,
 .mb-image-br,
@@ -14765,7 +14765,7 @@ button.close:hover {
     border: 2px solid #d96f1a!important
 }
 .border-exclamation-triangle {
-    border: 2px solid #2060e9!important
+    border: 2px solid #000080!important
 }
 .border-info-circle {
     border: 2px solid #14647c!important
@@ -14902,7 +14902,7 @@ p.span.story-subhead,
     text-align: left;
     font-size: 30px;
     border-left: 6px solid;
-    border-image: linear-gradient(to bottom, #2060e9 20%, #72001B 20%, #72001B 40%, #FCBD32 40%, #FCBD32 60%, #033B4C 60%, #033B4C, #033B4C 80%, #6C879A 80%) 5;
+    border-image: linear-gradient(to bottom, #000080 20%, #72001B 20%, #72001B 40%, #FCBD32 40%, #FCBD32 60%, #033B4C 60%, #033B4C, #033B4C 80%, #6C879A 80%) 5;
     padding: 10px 30px 5px 30px;
     text-align: left
 }
@@ -14923,7 +14923,7 @@ p.span.story-subhead,
     border-radius: 2px
 }
 .story-pipe {
-    border-right: 2px solid #2060e9!important
+    border-right: 2px solid #000080!important
 }
 hr.hr-premium {
     margin-top: 1rem;
@@ -14931,7 +14931,7 @@ hr.hr-premium {
     border: 0;
     z-index: 999;
     height: 5px;
-    background: linear-gradient(to right, #2060e9 20%, #72001B 20%, #72001B 40%, #FCBD32 40%, #FCBD32 60%, #033B4C 60%, #033B4C, #033B4C 80%, #6C879A 80%)
+    background: linear-gradient(to right, #000080 20%, #72001B 20%, #72001B 40%, #FCBD32 40%, #FCBD32 60%, #033B4C 60%, #033B4C, #033B4C 80%, #6C879A 80%)
 }
 .premium-quote {
     background-color: #F4F2F0;
