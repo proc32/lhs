@@ -1,20 +1,29 @@
 /* add on styles for legacy content types */
 
+
 /*remove focus from buttons*/
+
 button:focus:not(:focus-visible) {
     outline: none;
 }
 
+
 /* handling selected branch and link formatting */
+
 .alert-body a {
     font-size: 1rem !important;
 }
+
+
 /*.list-group-item a {
     text-decoration: none!important;
 }*/
+
 .h3 a {
     text-decoration: none!important;
 }
+
+
 /*.media-body a {
     text-decoration: none!important;
 }
@@ -22,25 +31,31 @@ li.media a {
     text-decoration: none !important;
 }*/
 
-ul.sidebar--links.striped > li > a {
+ul.sidebar--links.striped>li>a {
     text-decoration: none!important;
 }
-ul.sidebar--links > li > a {
+
+ul.sidebar--links>li>a {
     text-decoration: none!important;
 }
-#sidebarLinks > ul li > span {
+
+#sidebarLinks>ul li>span {
     color: #b30738;
     padding-bottom: .25rem;
     padding-top: .25rem;
     font-family: "Trade Gothic W01 Bold_2";
- }
-#sidebarLinks > ul li > span > a {
-   color: #444;
-   text-decoration: none!important;
- }
+}
+
+#sidebarLinks>ul li>span>a {
+    color: #444;
+    text-decoration: none!important;
+}
+
 li.breadcrumb-item a {
     text-decoration: none!important;
 }
+
+
 /* temporary patch for pagination styles
 
 .page-item.active .page-link {
@@ -55,6 +70,7 @@ li.breadcrumb-item a {
 }
 
 */
+
 
 /* temp fix for overlapping header in mobile
 
@@ -74,34 +90,34 @@ li.breadcrumb-item a {
 }
 
 .subheader.module {
-	margin:0;
+    margin: 0;
 }
 
 .news.module .media-list {
-  padding-left:0;
+    padding-left: 0;
 }
 
 .news.module .media-left {
-  width: 38.125%;
-  /*max-width: 178px;*/
-  padding-left: 3px;
-  padding-top: 2px;
-  padding-right: 20px;
+    width: 38.125%;
+    /*max-width: 178px;*/
+    padding-left: 3px;
+    padding-top: 2px;
+    padding-right: 20px;
 }
 
-.news.module .media-body > *:last-child {
-  margin-bottom: 0;
+.news.module .media-body>*:last-child {
+    margin-bottom: 0;
 }
 
 .news.module .media-heading {
-  margin: 0;
-  font-size: 20px;
-  line-height: 1.2;
-  text-transform: none;
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: none;
 }
 
 .news.module .media-left .thumbnail {
-  width:100%;
+    width: 100%;
 }
 
 .media {
@@ -120,12 +136,12 @@ li.breadcrumb-item a {
 }
 
 .topstories-module li:first-child {
-	display:block;
+    display: block;
 }
 
 .topstories-module li:first-child .media-body {
     width: 100%;
-    vertical-align:top;
+    vertical-align: top;
     display: table-cell;
 }
 
@@ -133,8 +149,9 @@ li.breadcrumb-item a {
     border-radius: 50%;
 }
 
-.img-thumbnail, .thumbnail {
-    box-shadow: 0 1px 5px rgba(0,0,0,.18) !important;
+.img-thumbnail,
+.thumbnail {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .18) !important;
 }
 
 .thumbnail {
@@ -149,9 +166,8 @@ li.breadcrumb-item a {
     transition: border .2s ease-in-out;
 }
 
-
 .one-column.person-spotlight.module ul {
-margin-left:-20px;
+    margin-left: -20px;
 }
 
 .person-spotlight.module .media-left {
@@ -164,7 +180,8 @@ margin-left:-20px;
     font-size: 13px;
 }
 
-.person-spotlight.module .media-heading, .person-spotlight.module .person-spotlight-name {
+.person-spotlight.module .media-heading,
+.person-spotlight.module .person-spotlight-name {
     margin: 0;
     font-size: 16px;
     line-height: 1.2;
@@ -172,20 +189,20 @@ margin-left:-20px;
     color: #9e1b32;
 }
 
+
 /* corrects next-row wrapping of floats in profile 2-column grid */
+
 .person-spotlight.module.one-column {
     float: left;
     margin-top: 0;
-	min-height:160px;
+    min-height: 160px;
 }
 
-@media (min-width: 1200px)
-.col-sm-8 .person-spotlight.module.one-column {
+@media (min-width: 1200px) .col-sm-8 .person-spotlight.module.one-column {
     max-width: 360px;
 }
 
-@media (min-width: 1065px)
-.col-sm-8 .person-spotlight.module.one-column {
+@media (min-width: 1065px) .col-sm-8 .person-spotlight.module.one-column {
     max-width: 320px;
 }
 
@@ -194,13 +211,14 @@ margin-left:-20px;
 }
 
 @media (min-width: 768px) {
-  .news.module.two-column .media-left {
-    width: 28%;
-  }
+    .news.module.two-column .media-left {
+        width: 28%;
+    }
 }
 
-.img-thumbnail, .thumbnail {
-    box-shadow: 0 1px 5px rgba(0,0,0,.18) !important;
+.img-thumbnail,
+.thumbnail {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .18) !important;
 }
 
 .featured-story.module .thumbnail {
@@ -221,10 +239,9 @@ margin-left:-20px;
     padding: 22px 0 22px 22px;
 }
 
-
 .agenda img {
-	width:100%;
-	height:auto;
+    width: 100%;
+    height: auto;
 }
 
 .card-block {
@@ -233,27 +250,35 @@ margin-left:-20px;
     padding: 1.25rem;
 }
 
+
 /* General Content intro formatting includes h2 */
+
 .intro h2 p {
     font-size: 1.25rem;
     font-weight: 300;
 }
 
+
 /* removes 40px padding included in LWC widget stylesheet */
+
 .lw_widget_events li {
     padding-left: 0px !important;
 }
 
+
 /* removes margin from add-on module class above */
+
 .can-we.module {
-   margin-top: 0;
+    margin-top: 0;
 }
+
 
 /* can be removed once .bg-maroon class is added to scu.css */
 
 .bg-maroon {
-	background-color:#72001b;
+    background-color: #72001b;
 }
+
 
 /* fix for images added to grid without img-responsive or img-fluid - page id 36847 */
 
@@ -270,49 +295,3 @@ div[id^="d.en."]  {
   display: block;
   width:1px;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
